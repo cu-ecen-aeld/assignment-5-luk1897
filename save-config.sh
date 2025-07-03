@@ -13,4 +13,5 @@ if [ -e buildroot/.config ] && [ -e buildroot/output/build/linux-*/.config ]; th
 		echo "Saving linux defconfig"
 		make -C buildroot linux-update-defconfig
 	fi
+	
 fi
